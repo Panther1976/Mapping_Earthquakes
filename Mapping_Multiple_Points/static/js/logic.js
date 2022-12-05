@@ -5,6 +5,15 @@ console.log("working");
 // Create the map object with a center and zoom level.
 let map = L.map('mapid').setView([34.0522, -118.2437], 4);
 
+
+
+// Add a circle to the map
+L.circleMarker([34.0522,-118.2437],{
+    radius: 300,
+    color: "black",
+    fillColor: '#ffffa1'
+}).addTo(map);
+
 // Get data from cities.js
 let cityData = cities;
 
