@@ -33,7 +33,7 @@ let map = L.map('mapid', {
 let baseMaps = {
   "Streets": streets,
   "Satellite": satelliteStreets,
-  "Tectonic Plates": challengeLayer
+  "Night": challengeLayer
 
 };
 
